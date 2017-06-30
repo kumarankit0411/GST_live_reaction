@@ -3,11 +3,11 @@ from tweepy import OAuthHandler
 from textblob import TextBlob
 import time
 
-consumer_key = 'ozT7P2ebEfkOOHliDyhoimnqS'
-consumer_secret = 'h3Ha26bzIP7X2KRTcynTEB9bJ7skbenUgoWznASBojmt9dSg9c'
+consumer_key = 'YOUR_CONSUMER_KEY'
+consumer_secret = 'YOUR_CONSUMER_SECRET'
 
-access_token = '1336053463-PaURYGu3cef6ARTdWExBgSSnGhbxFiuRJIipriR'
-access_secret = 'gRlsEA6OWll2gMfhpH8wJsddMcnhd8IuSruNO0bzEXpOK'
+access_token = 'YOUR_ACCESS_TOKEN'
+access_secret = 'YOUR_ACCESS_SECRET'
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
